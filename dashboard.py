@@ -154,6 +154,15 @@ with st.container(border=True):
 # Tambahkan CSS untuk mengurangi margin divider
 st.markdown("""
     <style>
+        body {
+            overflow-x: hidden;
+            overflow-y: hidden; 
+        }
+        #MainMenu,
+        footer,
+        .stAppToolbar {
+            # visibility: hidden;
+        }
         hr {
             margin-top: 0 !important;
             margin-bottom: 0 !important;
